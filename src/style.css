@@ -1,0 +1,86 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #020024, #090979, #00d4ff);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del título */
+h1 {
+    margin: 20px;
+    font-size: 2.5rem;
+    text-shadow: 3px 3px 8px rgba(0, 255, 255, 0.8);
+}
+
+/* Estilo del input de búsqueda */
+input {
+    padding: 12px;
+    width: 60%;
+    font-size: 1.2rem;
+    border: 2px solid #00ffea;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 20px;
+    background-color: rgba(0, 255, 255, 0.2);
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+input:focus {
+    border-color: #ff00ff;
+    box-shadow: 0 0 10px #ff00ff;
+}
+
+/* Contenedor de resultados */
+#resultado {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+/* Tarjetas de país con estilo LED */
+.card {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0px 0px 15px rgba(0, 255, 255, 0.7);
+    transition: 0.3s ease-in-out;
+    color: #00ffea;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.08);
+    box-shadow: 0px 0px 20px rgba(255, 0, 255, 0.9);
+}
+
+/* Imágenes de las banderas */
+.card img {
+    width: 100px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+}
+
+/* Texto dentro de la tarjeta */
+.card h3 {
+    margin: 10px 0;
+    color: #00ffea;
+    text-shadow: 2px 2px 5px rgba(255, 255, 0, 0.8);
+}
+
+.card p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #fff;
+}
