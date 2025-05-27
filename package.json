@@ -1,5 +1,9 @@
 {
+  "homepage": "https://IdkJose.github.io/laboratorio-2-IdkJose",
+  "scripts": {
+    "deploy": "gh-pages -d src"
+  },
   "devDependencies": {
-    "gh-pages": "^6.3.0"
-  }
+    "gh-pages":"^6.3.0"
+}
 }
